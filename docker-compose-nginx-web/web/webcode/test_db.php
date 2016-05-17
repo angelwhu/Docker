@@ -1,5 +1,5 @@
 <?php
-$con = mysql_connect("mysql_db","root","angelwhu123");
+$con = mysql_connect("mysql_db","root","pass");
 if (!$con)
 {
     die('Could not connect: ' . mysql_error());
